@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		puchar (n)
+		puchar (n);
 	}
 	return (0);
 }
