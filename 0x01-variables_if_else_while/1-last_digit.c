@@ -5,7 +5,7 @@
 /**
  * main - This is where the program begins
  *
- * return (0) - will return 0 to means success
+ * return - (0) - will return 0 to means success
  */
 int main(void)
 {
