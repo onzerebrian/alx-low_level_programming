@@ -23,7 +23,7 @@ int main(void)
 			putchar ('0' + n);
 			putchar ('0' + k);
 
-			if (m < 8)
+			if (k < 8)
 			{
 				putchar (',');
 				putchar (' ');
