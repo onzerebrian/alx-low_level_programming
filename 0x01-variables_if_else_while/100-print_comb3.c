@@ -15,21 +15,17 @@ int main(void)
 		n = m + 1;
 		for (n = n; n < 10; n++)
 		{
-		putchar ('0' + m);
-		if (m < 10)
-		{
+			putchar ('0' + m);
 			putchar ('0' + n);
-		}
-		if (m != 9)
-		{
-			putchar (',');
-			putchar (' ');
-		} else
-		{
-			break;
-		}
+
+			if (m < 8)
+			{
+				putchar (',');
+				putchar (' ');
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
+
