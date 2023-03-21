@@ -2,7 +2,7 @@
 
 /**
  * main - the beginning of the program
- * Return (0): returns 0 if the program is successful
+ * Return: 0
  *
  */
 
