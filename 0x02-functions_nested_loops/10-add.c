@@ -6,7 +6,7 @@
  *Return: the result
  */
 
-int _abs(int a, int b)
+int add(int a, int b)
 {
 	int result;
 	int sm;
