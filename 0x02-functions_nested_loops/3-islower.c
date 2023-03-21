@@ -7,10 +7,9 @@
 
 int _islower(int c)
 {
-	char nn = 'a';
 	int no;
 
-	no = nn;
+	no = c;
 	if (no >= 97 && no <= 122)
 	{
 		_putchar('1');
