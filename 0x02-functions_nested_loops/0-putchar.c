@@ -1,10 +1,9 @@
 #include "main.h"
 
-/*
- * 
- * main - This is where the program begins
+/**
+ * main - the beginning of the program
+ * return (0) - returns 0 if the program is successful
  *
- * Return: Always 0 (Success)
  */
 
 int main(void)
