@@ -13,7 +13,7 @@ int _isalpha(int c)
 	int no;
 
 	no = c;
-	if ((no >= 65 && no <= 90) && (no >= 97 && no <= 122))
+	if ((no >= 65 && no <= 90) || (no >= 97 && no <= 122))
 	{
 		return (1);
 	}
