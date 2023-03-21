@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - the beginning of the program
- * Return: 0
+ * 
+ * print_alphabet: prints all alphabets in small letters
  *
  */
 
