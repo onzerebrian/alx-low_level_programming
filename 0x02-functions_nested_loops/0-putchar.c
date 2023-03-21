@@ -1,4 +1,4 @@
-#include <unistd.h> 
+#include <main.h> 
 
 /**
  * main - the begining of the program
