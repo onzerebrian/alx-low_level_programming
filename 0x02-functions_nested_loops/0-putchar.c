@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * main - the begining of the program
@@ -17,5 +17,5 @@ int main (void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	return (0);
+	return(0);
 }
