@@ -10,9 +10,9 @@ int main(void)
 {
 	char a = 'a';
 
-	while (a<=z)
+	while (a <= z)
 	{
-	_putchar(&a);
+	_putchar('&a');
 	a = a + 1;
 
 	}
