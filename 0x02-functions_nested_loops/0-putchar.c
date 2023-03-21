@@ -1,11 +1,12 @@
 #include "main.h"
 
-/**
- * main: - the begining of the program
+/*
+ * 
+ * main - This is where the program begins
  *
- * return:0  returns 0 when the program is successful
- *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	_putchar('_');
