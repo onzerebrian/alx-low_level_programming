@@ -3,8 +3,6 @@
 /**
  *jack_bauer -timer
  *
- * @n: The character to be checked
- *
  *Return: 1 for lowercase character or 0 for anything else
  */
 
@@ -15,13 +13,13 @@ void jack_bauer(void)
 	int c;
 	int d;
 
-	for (a = 0; a < 3; a++)
+	for (a = '0'; a < '3'; a++)
 	{
-	for (b = 0; b < 4; b++)
+	for (b = '0'; b < '4'; b++)
 	{
-	for (c = 0; c < 6; c++)
+	for (c = '0'; c < '6'; c++)
 	{
-	for (d = 0; d < 10; d++)
+	for (d = '0'; d <= '9'; d++)
 	{
 		_putchar(a);
 		_putchar(b);
