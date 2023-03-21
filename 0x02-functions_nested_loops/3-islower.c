@@ -13,8 +13,6 @@ int _islower(int c)
 	if (no >= 97 && no <= 122)
 	{
 		return (1);
-	} else
-	{
-		return (0);
 	}
+		return (0);
 }
