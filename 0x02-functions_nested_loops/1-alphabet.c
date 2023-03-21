@@ -2,7 +2,7 @@
 
 /**
  *
- * print_alphabet : prints all alphabets in small letters
+ * print_alphabet -  prints all alphabets in small letters
  *
  */
 
