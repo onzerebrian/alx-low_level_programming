@@ -1,43 +1,43 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * times_table - the function produces the multiplication table print out
- *
- * @a: first loop
- * @b: second loop
- * @c: third loop
- *
- * Return: 0 for success
- */
-
+  * times_table - Prints the 9 times table, starting with 0
+  *
+  * Return: empty output
+  */
 void times_table(void)
 {
-	int a;
-	int b;
-	int c;
+	int x, y, z, u, d;
 
-	for (a = 0; a < 10; a++)
+	for (x = 0; x <= 9; x++)
 	{
-		c = 0;
-		for (b = 0; b < 9; b++)
+		for (y = 0; y <= 9; y++)
 		{
-			if (c < 10)
+			z = x * y;
+
+			if (z > 9)
 			{
-				printf(" %d, ", c);
-			} else
-			{
-				printf("%d, ", c);
+				u = z % 10;
+				d = (z - u) / 10;
+
+				_putchar(44);
+				_putchar(32);
+				_putchar(d + '0');
+				_putchar(u + '0');
 			}
-				c = c + a;
-			}
-			if (c < 10)
+			else
 			{
-				printf(" %d", c);
-			} else
-			{
-			printf("%d", c);
+				if (y != 0)
+				{
+					_putchar(44);
+					_putchar(32);
+					_putchar(32);
+				}
+
+				_putchar(z + '0');
 			}
-	c = c + a;
-	printf("\n");
+		}
+
+		_putchar('\n');
 	}
 }
