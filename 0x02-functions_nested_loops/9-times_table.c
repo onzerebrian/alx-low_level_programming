@@ -40,5 +40,4 @@ void times_table(void)
 	c = c + a;
 	printf("\n");
 	}
-return(0);
 }
