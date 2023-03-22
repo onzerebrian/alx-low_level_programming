@@ -16,10 +16,10 @@ void times_table(void)
 	int b;
 	int c;
 
-	for (a = 0 ; a < 10; a++)
+	for (a = 0; a < 10; a++)
 	{
 		c = 0;
-		for(b = 0 ;b < 9; b++)
+		for(b = 0; b < 9; b++)
 		{
 			if (c<10)
 			{
