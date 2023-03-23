@@ -2,6 +2,7 @@
 
 /**
  * more_numbers - print numbers more than 9
+ * Return: new
  */
 
 void more_numbers(void)
@@ -10,7 +11,7 @@ void more_numbers(void)
 	int b;
 	int i;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
 	for (a = 0; a <= 1; a++)
 	{
