@@ -3,6 +3,7 @@
 /**
  * print_diagonal - prints a diagonal line
  * @n: number of spaces
+ * Return: 0 for success
  */
 
 void print_diagonal(int n)
