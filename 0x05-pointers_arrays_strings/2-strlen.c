@@ -5,19 +5,19 @@
 /**
  * _strlen - counts the lenght of a string
  *
- * @s: 
+ * @s: pointer
  *
  * Return: returns the lenght of string
  */
 
 int _strlen(char *s)
 {
-	int i = 0 , l = 0;
+	int i = 0, l = 0;
 
 	while (s[i] != '\0')
 	{
 		l++;
 		i++;
 	}
-	return l;
+	return (l);
 }
