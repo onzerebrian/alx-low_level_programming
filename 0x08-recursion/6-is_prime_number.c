@@ -5,6 +5,12 @@
  *
  * @: the number
  *
+ * @x: ne function
+ *
+ * @i: counter
+ *
+ * @n: new variba;e
+ *
  * Return: retuurn the result
  */
 
