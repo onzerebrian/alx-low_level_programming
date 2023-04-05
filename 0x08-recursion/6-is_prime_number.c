@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * is_prime_number - checks if its a prime number
- *
  * xa - new function
  *
  * @: the number
@@ -23,6 +21,18 @@ int xa(int n, int i)
 	return (xa(n, i - 1));
 }
 
+
+/**
+ * is_prime_number - checks if its a prime number
+ *
+ * xa - new function
+ *
+ * @: the number
+ *
+ * @n: new variba;e
+ *
+ * Return: retuurn the result
+ */
 int is_prime_number(int n)
 {
 	if (n <= 1)
