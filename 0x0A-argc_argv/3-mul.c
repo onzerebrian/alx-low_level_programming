@@ -15,9 +15,10 @@ int main(int argc, char *argv[])
 	int i;
 	int m = 1;
 
-	if (argc == 1)
+	if (argc == 1 || argc > 3)
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
