@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 
 
 /**
@@ -27,13 +27,9 @@ int main(int argc, char *argv[])
 
 	int x;
 
-
-
 	x = argc - 1;
 
-	_putchar(x);
-	_putchar('\n');
+	printf("%d\n", x);
 
 	return (0);
 }
-~
