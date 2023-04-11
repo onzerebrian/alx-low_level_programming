@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 	{
-	return (NULL);
+	return NULL;
 	}
 	else
 	{
@@ -27,7 +27,6 @@ char *create_array(unsigned int size, char c)
 		{
 			x[i] = c;
 		}
-		free(x);
 		return (x);
 	}
 }
