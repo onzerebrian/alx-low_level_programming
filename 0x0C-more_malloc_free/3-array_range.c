@@ -20,7 +20,7 @@ for (i = min; i < max; i++)
 {
 x++;
 }
-m = x * (sizeof(int)) + 1;
+m = x * sizeof(int);
 ptr = malloc(m);
 if (ptr == NULL)
 {
