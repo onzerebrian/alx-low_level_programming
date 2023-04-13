@@ -24,4 +24,3 @@ ptr[i] = 0;
 }
 return (ptr);
 }
-
