@@ -15,6 +15,10 @@ int _putchar(char c)
 
 #define x __FILE__
 
+/**
+ * main - the start of the program
+ * Return: returns 0
+ */
 int  main()
 {
 	int i;
