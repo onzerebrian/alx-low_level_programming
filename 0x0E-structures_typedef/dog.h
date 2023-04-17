@@ -1,6 +1,9 @@
 #ifndef DOH_H
 #define DOH_H
 
+/**
+ * struct dog - creation of the struct
+ */
 struct dog
 {
 	char *name;
