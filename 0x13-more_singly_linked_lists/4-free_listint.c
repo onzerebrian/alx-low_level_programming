@@ -10,6 +10,8 @@ void free_listint(listint_t *head)
 	unsigned int i;
 	listint_t *temp, *m;
 
+	if (head == NULL)
+		return;
 	temp = head;
 
 	for (i = 0; temp->next != NULL; i++)
