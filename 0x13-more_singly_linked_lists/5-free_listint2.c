@@ -7,19 +7,19 @@
 
 void free_listint2(listint_t **head)
 {
+	listint_t *t;
 	unsigned int i;
-	listint_t *m, *l;
 
 	if (head == NULL)
-		return;
+	       return;
 	if (*head == NULL)
 		return;
 	for (i = 0; (*head)->next != NULL; i++)
 	{
-		m = (*head)->next;
+		t = (*head)->next;
 		free(*head);
-		*head = m;
+		*head = t;
 	}
 	free(*head);
-
+	*head = NULL;
 }
