@@ -5,7 +5,6 @@
  * @head: head pointer
  * @index: nth node of a listint_t linked list.
  * Return: the nth node
- * 
  */
 
 
