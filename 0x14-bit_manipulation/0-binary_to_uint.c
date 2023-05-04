@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdio.h>
 /**
  * binary_to_uint - converts binary to int
  * @b: pointer to input char string
@@ -15,15 +16,19 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	for (i = 0; b[i] != '\0'; i++)
 	{
-		len++;
+		len = len + 1;
 	}
 	if (len == 1 && b[0] == '0')
+	{
 		return (0);
+	}
 	if (len == 1 && b[0] == '1')
+	{
 		return (1);
+	}
 	for (i = 0; b[i] != '\0'; i++)
 	{
-	if (b[i] != '0' || b[i] != '1')
+	if (b[i] != '0' && b[i] != '1')
 		return (0);
 	j = len - 1;
 	for (; j > 0; j--)
@@ -31,7 +36,7 @@ unsigned int binary_to_uint(const char *b)
 		p *= 2;
 	}
 	len--;
-	r += (p * (b[i] - 48));
+	r = r + (p * (b[i] - 48));
 	p = 1;
 	}
 	return (r);
