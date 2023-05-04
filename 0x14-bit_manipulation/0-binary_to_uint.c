@@ -23,11 +23,11 @@ unsigned int binary_to_uint(const char *b)
 	if (b[i] != '0' || b[i] != '1')
 		return (0);
 	j = len - 1;
-	for(; j > 0; j--)
+	for (; j > 0; j--)
 	{
 		p *= 2;
 	}
-	len --;
+	len--;
 	r += (p * (b[i] - 48));
 	p = 1;
 	}
