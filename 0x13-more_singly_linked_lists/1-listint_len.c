@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * print_listint - prints the list
+ * listint_len - main
  * @h: pointer to first element
  * Return: number of modes
  */
 
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	unsigned int m;
 
@@ -16,7 +16,6 @@ size_t print_listint(const listint_t *h)
 	}
 	for (m = 0; h != NULL; m++)
 	{
-		printf("%d\n", h->n);
 		h = h->next;
 	}
 	return (m);
