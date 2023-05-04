@@ -14,7 +14,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 
 	i = i << index;
 	x = sizeof(unsigned long int);
-	
+
 	if (index > x * 8)
 		return (-1);
 	if (n == NULL)
