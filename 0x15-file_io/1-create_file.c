@@ -32,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 	else
 		return (-1);
 	}
-	for (x = 0; text_content[i] != '\0'; x++)
+	for (x = 0; text_content[x] != '\0'; x++)
 	{
 		if (write(f, &text_content[x], 1) == -1)
 			return (-1);
