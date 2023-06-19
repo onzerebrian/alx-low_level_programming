@@ -1,2 +1,1 @@
-0x18. C - Dynamic librarie
-s
+0x18. C - Dynamic libraries
